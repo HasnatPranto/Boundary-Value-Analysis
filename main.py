@@ -19,3 +19,6 @@ if __name__ == '__main__':
     worst.generateWorstTesting(minL,maxL,numberOfVariables)
 
     print('Test cases generated!\nTest files: BVC.csv, robust.csv, worst.csv')
+    
+    JUnit.generateReportFiles()
+
